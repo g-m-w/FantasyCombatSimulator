@@ -42,11 +42,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Actors\Melee\DemonHunter.cs" />
+    <Compile Include="Actors\Melee\Paladin.cs" />
+    <Compile Include="Actors\Melee\Warrior.cs" />
+    <Compile Include="Actors\Spellcaster\Druid.cs" />
+    <Compile Include="Actors\Spellcaster\Mage.cs" />
+    <Compile Include="Actors\Spellcaster\Necromancer.cs" />
+    <Compile Include="Equipment\Armour\Heavy\Chainmail.cs" />
+    <Compile Include="Equipment\Armour\Light\ClothRobe.cs" />
+    <Compile Include="Equipment\Armour\Medium\StuddedLeatherVest.cs" />
+    <Compile Include="Equipment\Weapons\Blunt\Mace.cs" />
+    <Compile Include="Equipment\Weapons\Blunt\Staff.cs" />
+    <Compile Include="Equipment\Weapons\Edged\Axe.cs" />
+    <Compile Include="Equipment\Weapons\Edged\Sword.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
